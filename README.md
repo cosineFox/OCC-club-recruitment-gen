@@ -2,8 +2,8 @@
 
 Written with Gemini-CLI and Qwencode. Both are absolute dogshit coding agents. Please use Claude-code.
 
-# Running this TUI CLI App
 # MAKE SURE YOU GOT RUST INSTALLED OKAY!
+## Running this TUI CLI App
 I used Rust for this because I was a masochist.
 ------------
 Just pull the repo and "cargo build" then "cargo run" if you wanna use this "app"
