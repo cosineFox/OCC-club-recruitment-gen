@@ -118,7 +118,7 @@ pub fn ui(frame: &mut Frame, app: &AppState) {
         .borders(Borders::ALL)
         .border_type(BorderType::Rounded)
         .border_style(Style::default().fg(SKY_BLUE))
-        .title(Span::styled(" JAN 2026 RECRUIT HUB ", Style::default().bg(SKY_BLUE).fg(CHARCOAL).add_modifier(Modifier::BOLD)));
+        .title(Span::styled(" JAN 2026 RECRUITMENT HUB ", Style::default().bg(SKY_BLUE).fg(CHARCOAL).add_modifier(Modifier::BOLD)));
     let qr_inner = qr_block.inner(poster_layout[0]);
     frame.render_widget(qr_block, poster_layout[0]);
 
@@ -150,7 +150,7 @@ pub fn ui(frame: &mut Frame, app: &AppState) {
     frame.render_widget(Paragraph::new(qr_content).alignment(Alignment::Center), qr_v_layout[1]);
 
     let cta_text = vec![
-        Line::from("JAN 2026 RECRUIT IS OPEN!"),
+        Line::from("JAN 2026 RECRUITMENT IS OPEN!"),
         Line::from(""),
         Line::from(Span::styled(">> Join to take AI's job. <<", Style::default().fg(NEON_GREEN).add_modifier(Modifier::BOLD))),
         Line::from(""),
@@ -218,8 +218,8 @@ pub fn ui(frame: &mut Frame, app: &AppState) {
         Line::from(""),
         Line::from(Span::styled("WHO WE ARE", Style::default().fg(SKY_BLUE).add_modifier(Modifier::BOLD))),
         Line::from("-------"),
-        Line::from("• Level 10 Gyatt Coders"),
-        Line::from("• Rizzing the Borrow Checker"),
+        Line::from("• Compiler Rizzler Final Boss"),
+        Line::from("• Clanker Stand Users"),
         Line::from(""),
         Line::from(Span::styled("VIBE_CHECK", Style::default().fg(SKY_BLUE).add_modifier(Modifier::BOLD))),
         Line::from("-------"),
