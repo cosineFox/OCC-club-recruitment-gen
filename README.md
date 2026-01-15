@@ -1,6 +1,6 @@
 # Open Computing Club QR and recruitment generator
 
-Written with Gemini-CLI and Qwencode. Both are absolute dogshit coding agents. Please use Claude-code.
+Written with Gemini-CLI and Qwencode. Both are absolute dogshit coding agents. Please use Claude-code or Codex
 
 ---
 
