@@ -1,35 +1,43 @@
-# Open Computing Club QR and recruitment generator
+# Open Computing Club QR and Recruitment Generator
 
-Written with Gemini-CLI and Qwencode. Both are absolute dogshit coding agents. Please use Claude-code or Codex
+This Rust-based command-line tool generates QR codes and recruitment posters for the Open Computing Club. It automates the creation of consistent recruitment assets, reducing manual design work.
 
----
+## Prerequisites
 
-## ⚠️ Prerequisite
+- Rust toolchain installed. You can install Rust via [rustup](https://www.rust-lang.org/tools/install).
 
-**MAKE SURE YOU GOT RUST INSTALLED OKAY!**
+## Getting Started
 
----
+Clone the repository and build the project:
 
-## Running this TUI CLI App
-
-I used Rust for this because I was a masochist.
-
-```
-Just pull the repo and "cargo build" then "cargo run" if you wanna use this "app"
+```sh
+git clone https://github.com/cosineFox/OCC-club-recruitment-gen.git
+cd OCC-club-recruitment-gen
+cargo build --release
 ```
 
-**OR**
+Run the application:
 
+```sh
+cargo run --release
 ```
-Use the run.sh if you hate typing commands.
+
+Alternatively, use the provided `run.sh` script:
+
+```sh
+./run.sh
 ```
 
----
+## Features
 
-## WHy tf does this thing exist?
+- Generates QR codes for recruitment materials.
+- Creates ASCII-art poster assets using templated designs.
+- Provides a simple terminal user interface (TUI) for customizing output.
 
-Cuz I am lazy to go to Canva or use Affinity Studio (yea it's owned by Canva but I hate Affinity now) and make new posts for recruitment every damn time.
+## Why this project exists
 
-Might as well use new ascii and ask AI to swap out the ASCII line by line.
+Designing recruitment posters manually can be repetitive and time-consuming. This tool automates the process, allowing the club to produce consistent materials quickly.
 
-(I might just make an algorithm to f(x) insert the ASCII after getting an algorithm to parse it.)
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
